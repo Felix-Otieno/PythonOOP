@@ -1,0 +1,11 @@
+class MyClass:
+
+    def __init__(self):
+        # no underscore = public
+        self.my_attribute = None
+
+        # single underscore = protected
+        self._my_attribute = None
+
+        # double underscore = private
+        self.__my_attribute = None
